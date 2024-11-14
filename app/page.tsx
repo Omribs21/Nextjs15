@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
@@ -64,6 +65,7 @@ export default function Home() {
             height={16}
           />
           Learn
+          <Button>click me!</Button>
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
